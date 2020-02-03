@@ -1,0 +1,22 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\info
+{\*\company mm  . 8}}\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 KCML predicts gene functions using perturbation phenotypic data. KCML optimise and train an SVM classifier for each gene ontology term but it can be applied to any type of annotations the user define. \
+\
+Requirements:\
+- desired values in config.txt including experiment name, sigma values, and number of cross validation during training.\
+- annotations files in annotations folder. The first column should have gene names and the second column should have functional annotation name as in the included example file. The name of this file should follow the following format: $expName$Annotation. For example if expName=Demo then annotation file name should be DemoAnnotation.csv.\
+- data files in annotations folder. The first column should have gene names as in the included example file.The name of this file should follow the following format: $expName$Data. For example if expName=Demo then data file name should be DemoData.csv.\
+\
+Output:\
+- The prediction of KCML on various functional terms and its confidence in these predictions \
+- The performance of the classifiers\
+- The selected features by different classifiers\
+\
+If you use this program, please cite\
+Salem H., Rittscher J., Pelkmans L., 2019, KCML: a machine-learning framework for inference of multi-scale gene functions from genetic perturbation screens, bioRxiv\'a0761106}

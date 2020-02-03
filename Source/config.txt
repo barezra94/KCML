@@ -1,0 +1,3 @@
+expName = 'Demo';
+opts.nCrossValidation = 30; % number of cross validation based on training samples
+opts.sigma = [10]; % define an array of SVM gamma values to optimise over
